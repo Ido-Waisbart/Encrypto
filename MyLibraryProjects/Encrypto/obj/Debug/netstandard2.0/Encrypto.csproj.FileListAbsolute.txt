@@ -1,0 +1,20 @@
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.deps.json
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.dll
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.pdb
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.csproj.CoreCompileInputs.cache
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.AssemblyInfoInputs.cache
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.AssemblyInfo.cs
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.dll
+c:\users\magshimim\documents\visual studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.pdb
+C:\Users\magshimim\Documents\Visual Studio 2017\Projects\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\AES_S-box.txt
+C:\Users\magshimim\Documents\Visual Studio 2017\Projects\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.csprojAssemblyReference.cache
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\AES_S-box.txt
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.deps.json
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.dll
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.pdb
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.csprojAssemblyReference.cache
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.csproj.CoreCompileInputs.cache
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.AssemblyInfoInputs.cache
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.AssemblyInfo.cs
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.dll
+C:\Users\magshimim\Desktop\עידו_ויסברט_322441593\MyLibraryProjects\Encrypto\obj\Debug\netstandard2.0\Encrypto.pdb

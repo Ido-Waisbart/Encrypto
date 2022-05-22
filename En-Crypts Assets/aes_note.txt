@@ -1,0 +1,21 @@
+A field is represented by Z
+
+GF(2^1) -> Galois Field with 2 elements.
+Field = integers mod p/2
+Z2 has p/2 Elements: a1 and a2.
+b1 = a1 % p/2 = 1
+
+
+GF(2^8) -> AES Galois Field with 256 elements. (32 bytes)
+B = bit
+Z8: B7*x^7 + B6*x^6 + B5*x^5... + B1*x + B0
+
+f(x) = x^3 + x^2 (1100)
+g(x) = x^2 + x + 1 )+(0111)
+ADDITION:
+	f(x) + g(x) = f(x) xor g(x) = x^3 + x + 1 (1011)
+
+MULTIPLICATION:
+	g(x) * x^3 = x^2 * x^3 + x * x^3 + 1 * x^3 = x^5 + x^4 + x^3
+	f(x) * g(x) = x^3 * g(x) + x^2 * g(x) = (x^5 + x^4 + x^3) + (x^4 + x^3 + x^2) =
+	= (x^5 + x^4 + x^3)/111000b xor (x^4 + x^3 + x^2)/11100b = (x^5 + x^2)/100100
