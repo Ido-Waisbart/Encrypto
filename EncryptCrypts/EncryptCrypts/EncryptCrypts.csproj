@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2E4F891-37EC-4016-9A32-76D63EF4DCAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EncryptCrypts</RootNamespace>
+    <AssemblyName>EncryptCrypts</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Encrypto, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MyLibraryProjects\Encrypto\bin\Debug\netstandard2.0\Encrypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormRSAKeyGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRSAKeyGenerator.Designer.cs">
+      <DependentUpon>FormRSAKeyGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVigenere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVigenere.Designer.cs">
+      <DependentUpon>FormVigenere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCaesar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCaesar.Designer.cs">
+      <DependentUpon>FormCaesar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAES.Designer.cs">
+      <DependentUpon>FormAES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRSA.Designer.cs">
+      <DependentUpon>FormRSA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormRSA.resx">
+      <DependentUpon>FormRSA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRSAKeyGenerator.resx">
+      <DependentUpon>FormRSAKeyGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVigenere.resx">
+      <DependentUpon>FormVigenere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAES.resx">
+      <DependentUpon>FormAES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCaesar.resx">
+      <DependentUpon>FormCaesar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caesar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vigenere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RSA.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
